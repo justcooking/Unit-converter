@@ -1,6 +1,9 @@
 <html>
     <head>
         <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     </head>
     <body>
         <script src="index.js"></script>
@@ -8,23 +11,24 @@
         <!-- header section -->
         <div class="header-div">
             <h1>Metric/Imperial unit Conversion</h1>
-            <input type="text">
+            <input id="inputEl" type="text">
             <button id="convert-btn">Convert</button>
+            <p id="errorEl"></p>
         </div>
 
         <!-- results section -->
         <div class="results-div">
             <div class="result-div" id="lengthEl">
                 <h2>Length (Meter/Feet)</h2>
-                <p>Enter a value</p>
+                <p>Please enter a value</p>
             </div>
             <div class="result-div" id=""volumeEl>
                 <h2>Volume (Liters/Gallons)</h2>
-                <p>Enter a value</p>
+                <p>Please enter a value</p>
             </div>
             <div class="result-div" id="massEl">
                 <h2>Mass (Kilograms/Pounds)</h2>
-                <p>Enter a value</p>
+                <p>Please enter a value</p>
             </div>
         </div>
     </body>
