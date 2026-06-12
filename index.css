@@ -44,7 +44,7 @@ h2{
     font-size: 45px;
     text-align: center;
 }
-.header-div button{
+button{
     display: block;
     margin: 0px auto;
     font-family: "Inter", sans-serif;
@@ -66,8 +66,23 @@ h2{
     background-color: #B295FF;
     color: white;
 }
+#reset-btn{
+    background: rgb(255, 54, 4);
+    color: whitesmoke;
+    margin-top: 12px;
+    transition: background-color 0.1s ease, color 0.1s ease;
+    padding: 8px 33px;
+}
+#reset-btn:hover{
+    background: rgb(250, 89, 89);
+    transition: background-color 0.1s ease, color 0.1s ease;
+}
+#reset-btn:active{
+    background: rgb(255, 152, 152);
+}
 #errorEl{
     min-height: 1.5em;
+    color: whitesmoke;
 }
 /* results */
 .results-div{
